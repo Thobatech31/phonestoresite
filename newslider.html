@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>image slider</title>
+	<link rel="stylesheet" type="text/css" href="newslider.css">
+	
+	<script type="text/javascript" src="jquery/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="jquery/jquery.cycle.all.js"></script>
+
+	<script type="text/javascript">
+		$('#slider').cycle({ 
+		fx:     'fade', 
+		fx:     'scrollHorz', 
+		next:   '#next', 
+		prev:   '#prev', 
+			});
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+	
+		<div id="prev">
+			<img src="click.png"/ class="image1">
+		</div>
+		
+		<div id="slider">
+			<img src="tt.jpg"/ class="sliderImage">
+			<img src="m2.jpg"/ class="sliderImage">
+			<img src="m3.jpg"/ class="sliderImage">
+			<img src="yup.jpg"/ class="sliderImage">
+		</div>
+		
+		<div id="next">
+			<img src="click2.png"/ class="image1">
+		</div>
+	
+	</div>
+	
+</body>
+</html>

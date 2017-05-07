@@ -1,0 +1,464 @@
+
+
+
+
+
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:auto;
+	margin-right:auto;
+
+	}
+
+
+#head {
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	text-align:center;
+	}
+
+
+
+
+#navrow{
+	border:2px solid maroon;
+	
+}
+
+#imagge{
+
+	margin-top: 10px;
+	height: 370px;
+}
+
+#nabber{
+	
+	
+	margin-left:70px;
+}
+
+#navbarap{
+	background-color:#E2E3E7;
+	border:1px solid maroon;
+}
+.navbar{
+	margin-top:20px;
+	
+}
+#pause{
+	color:maroon;
+	font-family:arial;
+	font-weight:bold;
+	margin-top:18px;
+	
+	text-shadow:rgb(100,100,100) 3px 3px 3px;
+	}
+
+#header{
+    padding: 0px 0px;
+}
+	
+#pause2{
+	color:maroon;
+	font-family:arial;
+	font-weight:bold;
+    margin-left:70px;
+    text-shadow:rgb(100,100,100) 3px 3px 3px;
+}
+	
+#username{
+	color:maroon;
+	font-family:arial;
+	font-weight:bold;
+	text-shadow:rgb(100,100,100) 3px 3px 3px;
+	}
+	
+#password{
+	color:maroon;
+	font-family:arial;
+	font-weight:bold;
+	text-shadow:rgb(100,100,100) 3px 3px 3px;
+	}
+	
+#submit{
+	color:maroon;
+	font-family:arial;
+	font-weight:bold;
+	text-shadow:rgb(100,100,100) 3px 3px 3px;
+	}
+	
+#val{
+	color:maroon;
+	font-family:arial;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:rgb(100,100,100) 3px 3px 3px;
+	}
+	
+#image11{
+	border:2px solid maroon;
+	border-radius:10px;
+	height:115px;
+}
+
+#image111{
+	border:2px solid #E2E3E7;
+	border-radius:10px;
+	height:95px;
+	width:250px;
+	margin-left:15px;
+}
+
+/*for making the link not to be underline*/
+.mainHeader a{
+	text-decoration:none;
+	
+	
+}
+
+/*for the heigh of the container and text spacing fron the top*/
+.mainHeader nav{
+	height:76px;
+	margin-top:20px;
+}
+
+/*for making the link in thesame line and space between the link*/
+.mainHeader nav ul,li{
+	display:inline;
+	padding:12px;
+	
+	
+	
+}
+
+/*for the links formating size of text color tc*/
+.mainHeader nav a:link, .mainHeader nav a:visited{
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	font-size:22px;	
+	
+	
+
+}
+
+/*for the link coverage it show when you move mouse on one link*/
+.mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav.active a:link, .mainHeader nav a:active a:visited{
+	text-shadow:none;
+	background-color:black;
+	padding:5px 5px;
+		
+}
+
+/*for the radius of the link coverage*/
+.mainHeader nav ul li a{
+	border-radius:10px;
+	-moz-border radius:10px;
+	-webkit-border radius:10px;
+
+}
+
+
+.bold{
+	color:orange;
+	margin-left:14px;
+	margin-top:100px;
+	font-weight:bold;
+
+	
+}
+
+.smart{
+	color:maroon;
+	font-weight:bold;
+}
+
+#image{
+	height:454px;
+	margin-left:10px;
+	border:2px solid gray;
+	border-radius:10px;
+	border-left:60px;
+	border-top:80px;
+	width:95%;
+}
+
+#imagei{
+	height:440px;
+	border:2px solid gray;
+	border-radius:10px;
+	border-left:80px;
+	border-top:80px;
+	margin-left:10px;
+	width:95%;
+}
+.fee{	
+	color:maroon;
+	margin-left:38px;
+	font-weight:bold;
+}
+
+.select{	
+	color:maroon;
+	font-weight:bold;
+}
+
+.selecting{	
+	color:orange;
+	margin-left:38px;
+	font-weight:bold;
+}
+
+p{
+	margin-left:3px;
+	
+}
+
+
+.feature{
+	color:orange;
+	font-weight:bold;
+}
+.spec{
+	color:maroon;
+	margin-left:21px;
+	font-weight:bold;
+}
+
+.order{
+	
+	width:65%;
+	height:40px;
+	padding:6px 13px;
+	font-weight:bold;
+	color:maroon;
+	font-family:arial;
+	font-weight:bold;
+	text-shadow:rgb(100,100,100) 3px 3px 3px;
+
+	
+	
+}
+
+#order{
+	margin-left:20%;
+	border: 1px solid brown;
+	background-color:orange;
+	width:190px;
+	border-radius:8px;
+	
+	
+}
+
+#mainCenter{
+	border: 1px solid brown;
+	margin-top:2px;
+}
+
+
+
+#wrapper{
+			background-color:gray;
+			height:317px;
+			margin-left:auto;
+			margin-right:auto;
+			border:4px solid maroon;
+			border-radius:14px;
+			margin-top:10px;
+		}
+
+#prev{
+		width:50px;
+		height:308px;
+		float:left;
+		border-radius:9px;
+		background-position:center;
+		background-color:black;
+		background-repeat:no-repeat;
+	}
+	
+#slider{
+			float:left;
+			height:308px;
+			width:100px;
+			overflow:hidden;
+			background-color:red;
+			margin-left:auto;
+			margin-right:auto;	
+		}
+#image1{
+		margin-top:120px;
+		border-radius:20px;
+	}
+
+#sliderImage{
+		height:360px;
+		width:95%;
+		border:5px solid white;
+		border-radius:17px;
+		margin-top:5px;
+		margin-left:15px;
+	}
+		
+#next{
+		width:50px;
+		height:308px;
+		float:left;
+		border-radius:9px;
+		background-position:center;
+		background-color:black;
+		background-repeat:no-repeat;
+	}
+	
+#mainCenter2{
+	border: 1px solid white;
+	border-radius:3px;
+}
+
+#imagy1{
+	
+	border:3px solid white;
+	border-radius:14px;
+	width:33%;
+	padding-left:10px;
+	background-color:maroon;
+}
+
+
+#firstim{
+	height:185px;
+	width:100%;
+	border-radius:12px;
+	
+}
+
+.h4{
+	color:orange;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+.h41{
+	color:maroon;
+	font-weight:bold;
+	text-align:center;
+}
+
+.link a{
+	text-decoration:none;
+}
+
+
+.welcom{
+	color:maroon;
+	font-weight:bold;
+	
+}
+.smarrt{
+	color:maroon;
+	font-weight:bold;
+	margin-left:23px;
+	
+}
+.lorem{
+	color:orange;
+	font-size:20px;
+}
+.paragragh{
+
+}
+.latest{
+	color:maroon;
+	font-weight:bold;
+	margin-left:23px;
+
+}
+.new{
+	color:orange;
+	font-weight:bold;
+	margin-left:23px;
+}
+
+.smapt{
+	color:maroon;
+	margin-left:23px;
+}
+
+.parat{
+	color:orange;
+	margin-left:23px;
+	letter-spacing:2px;
+	font-weight:bold;
+	background-color:maroon;
+}
+
+
+
+
+#sma1{
+	height:395px;
+	width:270px;
+	border:3px solid white;
+	border-radius:40px;
+}
+
+.vedio{
+	text-align:center;
+	font-family:arial;
+	font-weight:bold;
+	color:maroon;
+	font-size:20px;
+	margin-top:23px;
+	
+}
+
+#example-navbar-collapse{
+	width:100%;
+}
+
+#video{
+	width:95%;
+	height:266px;
+	background-color:maroon;
+	border-radius:16px;
+	border:3px solid white;
+	margin-left:10px;
+}
+
+
+#table{
+	border:2px solid white;
+	border-radius:20px;
+	width:100%;
+}
+
+.theader{
+	font-weight:bold;
+	font-family:arial;
+	color:maroon;
+}
+
+.fotter{
+	width:30px;
+	border:1px solid orange;
+	border-radius:4px;
+}
+
+#footerImage{
+	height:90px;
+	text-align:center;
+	border-radius:12px;
+	border:1px solid maroon;
+	width:95%;
+	margin-top:5px;
+	margin-left:10px;
+}
+
+.wwww{
+	text-align:center;
+	font-weight:bold;
+	color:maroon;
+}

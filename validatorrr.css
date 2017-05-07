@@ -1,0 +1,20 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+#nammy{
+	border-radius:5px;
+	}
+
+#pass{
+	border-radius:5px;
+	}
+
+a{
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	}
+

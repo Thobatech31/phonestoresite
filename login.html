@@ -1,0 +1,57 @@
+	<html>
+	<head>
+		<title>boostrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--BOOTSRAP-->
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5\css\bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="navbar.css">
+		<script type="text/javascript" href="bootstrap-3.3.5\js\bootstrap.min.js"></script>
+		
+		<style>
+			#login{
+			border:3px solid white;
+			width:35%;
+			height:290px;
+			background-color:white;
+			margin-left:100px;
+			border-radius:12px;
+			margin-top:70px;
+		
+			}
+			
+			
+			#submit{
+			text-decoration:none;
+			}
+		</style>
+	</head>
+	<body style="background-color:maroon" >
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-xs-4 col-md-5">
+					<form id="login">
+						
+						<A HREF="fontpage.html"
+							ONMOUSEOVER="window.status='home page'; changeImages('home_page', 'images/home-page-over.jpg'); return true;"
+							ONMOUSEOUT="window.status=''; changeImages('home_page', 'images/home-page.jpg'); return true;">
+							<IMG NAME="home_page" SRC="images/home-page.jpg" WIDTH=154 HEIGHT=38 BORDER=0 ALT="home page">
+						</A>
+								<p><br/>
+								<p id="username"> &nbsp &nbsp  &nbsp &nbsp    USERNAME &nbsp <br/> 
+									<input type="text" id="nammy" placeholder="Enter Username Here......" maxlength=""/> 
+								</p>
+								<br/> 
+	
+								<p id="password"> &nbsp &nbsp  &nbsp &nbsp   PASSWORD &nbsp <br/> 
+									<input type="password" id="nammy" placeholder="Enter Password Here......" maxlength="12"  name="pword"/>
+								</p>
+								<br/>
+		
+								&nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp <input type="button" value="Submit" id="submit">
+					</form>
+				</div>
+			</div>
+		</div>			
+	</body>
+							
+	</html>

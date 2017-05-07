@@ -1,0 +1,32 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	width:100%;
+	display:-webkit-box;					/*FOR GOOGLE CHROME*/
+	display:-moz-box;						/*FOR MOZILLA FIREFOX*/
+	-webkit-box-pack:center;				/*FOR GOOGLE CHROME*/
+	-moz-box-pack:center;					/*FOR MOZILLA FIREFOX*/	
+	background-color:brown;
+}
+
+
+#valid{
+	background-color:white;
+	border-radius:8px;
+	border:3px solid white;
+	-webkit-box-pack:center;				/*FOR GOOGLE CHROME*/
+	-moz-box-pack:center;					/*FOR MOZILLA FIREFOX*/	
+	margin-top:50px;
+}
+#submit{
+	margin-left:70px;
+	width:60px;
+}
+
+#data{
+	margin-left:80px;
+	width:160px;
+}
